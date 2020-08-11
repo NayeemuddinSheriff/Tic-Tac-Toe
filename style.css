@@ -1,0 +1,72 @@
+Body {
+    height: auto;
+    width: 307x;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    font-size: xx-large;
+    text-align: center;
+    font-family: cursive;
+}
+
+.board {
+    background-color: cornsilk;
+    width: 307px;
+    margin: 0 auto;
+}
+
+#row1 {
+    overflow: hidden;
+    clear: both;
+}
+
+#row2 {
+    overflow: hidden;
+    clear: both;
+}
+
+#row3 {
+    overflow: hidden;
+    clear: both;
+}
+
+#row1 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+}
+
+#row2 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+}
+
+#row3 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+}
+
+#row4 span{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+}
+
+font {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-flex;
+    text-align: center;
+}
